@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Multiple users test"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="13.228">
+  <properties />
+  
+  
+            <testcase name="login2" time="2.213" classname="TestNG" />
+                <testcase name="login1" time="9.200" classname="TestNG" />
+                <testcase name="login3" time="1.815" classname="TestNG" />
+      
+</testsuite>

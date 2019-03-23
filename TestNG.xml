@@ -1,0 +1,18 @@
+<suite name="My Product Testing">
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    </listeners>
+    <test name="Smoke test">
+        <classes>
+                <class name="TestNG1"/>
+        </classes>
+    </test>
+    <test name="Multiple users test">
+        <classes>
+            <class name="TestNG"/>
+            <class name="TestNG2"/>
+        </classes>
+    </test>
+    </suite>
+
